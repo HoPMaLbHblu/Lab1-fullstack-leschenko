@@ -8,5 +8,6 @@ while (true)
     string name = Console.ReadLine();
 
     System.Console.WriteLine($"Привет! {name}");
+    System.Console.WriteLine($"Сегодня : {DateTime.Now.DayOfWeek}");
 
 }
